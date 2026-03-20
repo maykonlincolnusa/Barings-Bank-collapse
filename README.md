@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7B1C2E&height=220&section=header&text=BARINGS%20BANK%20%7C%20OpRisk%20Intelligence&fontSize=36&fontColor=F0E6C8&fontAlignY=38&desc=Fraud%20%26%20Operational%20Risk%20Reconstruction%20Platform&descAlignY=58&descSize=16&descColor=C9A84C&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7B1C2E&height=200&section=header&text=Barings+Bank+OpRisk+Intelligence&fontSize=34&fontColor=F0E6C8&fontAlignY=42&animation=fadeIn" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=20&duration=3200&pause=1000&color=C9A84C&center=true&vCenter=true&width=780&lines=Reconstructing+the+1995+Barings+Bank+Collapse;Nick+Leeson+%7C+Account+88888+%7C+%C2%A3827M+Hidden+Loss;Rogue+Trading+Detection+via+Ensemble+AI;Operational+Risk+%7C+Fraud+Engineering+%7C+Explainable+AI;Public-Source+%7C+Synthetic+Data+%7C+FastAPI+%2B+Streamlit" alt="Typing SVG"/>
@@ -118,7 +118,7 @@ flowchart TD
     subgraph INGEST["📥 DATA INGESTION"]
         A1[Public Source Registry]:::gold
         A2[BoE Board Report 1995]:::cream
-        A3[BIS Basel II / III Papers]:::cream
+        A3[BIS Basel II and III Papers]:::cream
         A4[Parliamentary Records]:::cream
         A5[Synthetic Data Engine]:::navy
     end
@@ -139,7 +139,7 @@ flowchart TD
 
     subgraph SERVING["🚀 API LAYER"]
         D1[FastAPI REST]:::burgundy
-        D2[JWT Auth + RBAC]:::burgundy
+        D2[JWT Auth and RBAC]:::burgundy
         D3[Rate Limiter]:::burgundy
     end
 
@@ -165,16 +165,16 @@ flowchart TD
 ┌──────────────────────┬──────────────────────────┬────────────────────────────────┐
 │ REGIME               │ BARINGS ANALOG            │ KEY INDICATORS                 │
 ├──────────────────────┼──────────────────────────┼────────────────────────────────┤
-│ healthy_desk         │ Barings 1989–1992         │ Clean PnL, reconciled,         │
+│ healthy_desk         │ Barings 1989-1992         │ Clean PnL, reconciled,         │
 │                      │ Pre-Singapore era         │ normal margin calls            │
 ├──────────────────────┼──────────────────────────┼────────────────────────────────┤
-│ mild_anomaly         │ Early Leeson 1992–1993    │ Small breaks, minor funding    │
+│ mild_anomaly         │ Early Leeson 1992-1993    │ Small breaks, minor funding    │
 │                      │ First 88888 entries       │ irregularities                 │
 ├──────────────────────┼──────────────────────────┼────────────────────────────────┤
-│ rogue_trader         │ Leeson 1993–1994          │ Hidden loss acceleration,      │
+│ rogue_trader         │ Leeson 1993-1994          │ Hidden loss acceleration,      │
 │                      │ Straddle strategy         │ recon failures, PnL spoof      │
 ├──────────────────────┼──────────────────────────┼────────────────────────────────┤
-│ collapse             │ January–February 1995     │ Margin spiral, funding crisis, │
+│ collapse             │ January-February 1995     │ Margin spiral, funding crisis, │
 │                      │ Kobe earthquake shock     │ full cascade                   │
 └──────────────────────┴──────────────────────────┴────────────────────────────────┘
 ```
@@ -360,10 +360,10 @@ mindmap
     Bank of England
       BoE 1995 Barings Report
       PRA SS1/23 Model Risk
-    Federal Reserve / OCC
+    Federal Reserve and OCC
       SR 11-7 Model Governance
       Supervisory Guidance OpRisk
-    ESMA / EU
+    ESMA and EU
       MiFID II Trade Surveillance
       EMIR Reporting Standards
     Industry Standards
