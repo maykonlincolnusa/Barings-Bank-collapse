@@ -1,0 +1,26 @@
+{
+  "dataset_id": "rogue_trader_53_120",
+  "scenario": "rogue_trader",
+  "output_dir": "C:\\Users\\gomes\\OneDrive\\\u00c1rea de Trabalho\\Projetos Github\\Barings Bank collapse\\app\\data\\synthetic\\rogue_trader_53_120",
+  "rows": {
+    "trade_records": 360,
+    "position_records": 360,
+    "cashflow_events": 120,
+    "reconciliation_logs": 120,
+    "audit_logs": 120
+  },
+  "parameters": {
+    "scenario": "rogue_trader",
+    "days": 120,
+    "seed": 53,
+    "start_date": "1994-12-01",
+    "entity_id": "BFS_SINGAPORE",
+    "trader_id": "NICK_LEESON",
+    "desk_id": "EQUITY_DERIVATIVES_APAC",
+    "exposure_growth_rate": 0.08,
+    "concealment_strength": 0.55,
+    "control_weakness_level": 0.8,
+    "market_shock_sensitivity": 1.75,
+    "detection_delay": 0.45
+  }
+}

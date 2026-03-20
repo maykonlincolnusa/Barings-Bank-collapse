@@ -1,0 +1,26 @@
+{
+  "dataset_id": "collapse_42_120",
+  "scenario": "collapse",
+  "output_dir": "C:\\Users\\gomes\\OneDrive\\\u00c1rea de Trabalho\\Projetos Github\\Barings Bank collapse\\app\\data\\synthetic\\collapse_42_120",
+  "rows": {
+    "trade_records": 360,
+    "position_records": 360,
+    "cashflow_events": 120,
+    "reconciliation_logs": 120,
+    "audit_logs": 120
+  },
+  "parameters": {
+    "scenario": "collapse",
+    "days": 120,
+    "seed": 42,
+    "start_date": "1994-12-01",
+    "entity_id": "BFS_SINGAPORE",
+    "trader_id": "NICK_LEESON",
+    "desk_id": "EQUITY_DERIVATIVES_APAC",
+    "exposure_growth_rate": 0.12,
+    "concealment_strength": 0.75,
+    "control_weakness_level": 0.95,
+    "market_shock_sensitivity": 2.2,
+    "detection_delay": 0.2
+  }
+}

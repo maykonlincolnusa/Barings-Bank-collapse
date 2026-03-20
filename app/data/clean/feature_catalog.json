@@ -1,0 +1,102 @@
+[
+  {
+    "name": "reported_pnl_total",
+    "description": "Daily PnL reported by the desk.",
+    "lineage": "cashflow_events.reported_pnl_total"
+  },
+  {
+    "name": "actual_pnl_total",
+    "description": "Economic PnL before concealment.",
+    "lineage": "cashflow_events.actual_pnl_total"
+  },
+  {
+    "name": "hidden_loss_total",
+    "description": "Loss amount shifted away from reported PnL.",
+    "lineage": "cashflow_events.hidden_loss_total"
+  },
+  {
+    "name": "pnl_cash_gap",
+    "description": "Mismatch between reported PnL and realized cash movement.",
+    "lineage": "reported_pnl_total - realized_cash_delta"
+  },
+  {
+    "name": "gross_exposure_total",
+    "description": "Total gross exposure across instruments.",
+    "lineage": "position_records.gross_exposure sum"
+  },
+  {
+    "name": "exposure_growth_3d",
+    "description": "Three-day percentage growth in gross exposure.",
+    "lineage": "gross_exposure_total.pct_change(3)"
+  },
+  {
+    "name": "secret_account_fraction",
+    "description": "Share of trades booked in account 88888.",
+    "lineage": "trade_records.secret_account_flag mean"
+  },
+  {
+    "name": "late_entry_rate",
+    "description": "Late entries relative to trade count.",
+    "lineage": "reconciliation_logs.late_entries / trade_count"
+  },
+  {
+    "name": "backdated_entry_rate",
+    "description": "Backdated entries relative to trade count.",
+    "lineage": "reconciliation_logs.backdated_entries / trade_count"
+  },
+  {
+    "name": "reconciliation_breaks",
+    "description": "Unresolved reconciliation breaks.",
+    "lineage": "reconciliation_logs.reconciliation_breaks"
+  },
+  {
+    "name": "unresolved_break_value",
+    "description": "Estimated value stuck in unresolved breaks.",
+    "lineage": "reconciliation_logs.unresolved_break_value"
+  },
+  {
+    "name": "margin_call_amount",
+    "description": "Daily margin call demand.",
+    "lineage": "cashflow_events.margin_call_amount"
+  },
+  {
+    "name": "funding_transfer",
+    "description": "Funding sent from head office.",
+    "lineage": "cashflow_events.funding_transfer"
+  },
+  {
+    "name": "funding_spike_3d",
+    "description": "Acceleration in external funding.",
+    "lineage": "funding_transfer.diff(3)"
+  },
+  {
+    "name": "pnl_zscore_5d",
+    "description": "Five-day z-score of actual PnL.",
+    "lineage": "rolling z-score"
+  },
+  {
+    "name": "after_kobe_shock",
+    "description": "Indicator for post-17 Jan 1995 observations.",
+    "lineage": "date >= 1995-01-17"
+  },
+  {
+    "name": "front_back_same_user",
+    "description": "Control flag for same person across trading and settlement.",
+    "lineage": "audit_logs.front_back_same_user"
+  },
+  {
+    "name": "signoff_gap",
+    "description": "Required sign-offs minus actual sign-offs.",
+    "lineage": "2 - audit_logs.signoff_count"
+  },
+  {
+    "name": "audit_ignored",
+    "description": "Ignored audit recommendation indicator.",
+    "lineage": "audit_logs.audit_recommendation_ignored"
+  },
+  {
+    "name": "trade_after_hours_share",
+    "description": "Share of trades booked after 18:00.",
+    "lineage": "trade_hour > 18"
+  }
+]

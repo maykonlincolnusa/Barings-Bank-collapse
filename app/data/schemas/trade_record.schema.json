@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TradeRecord",
+  "type": "object",
+  "required": ["date", "entity_id", "trader_id", "instrument", "account_id", "quantity", "price", "actual_pnl", "reported_pnl", "fraud_label"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "entity_id": { "type": "string" },
+    "trader_id": { "type": "string" },
+    "instrument": { "type": "string" },
+    "account_id": { "type": "string" },
+    "quantity": { "type": "number" },
+    "price": { "type": "number" },
+    "actual_pnl": { "type": "number" },
+    "reported_pnl": { "type": "number" },
+    "fraud_label": { "type": "integer" }
+  }
+}
+

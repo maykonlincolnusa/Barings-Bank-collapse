@@ -1,0 +1,111 @@
+[
+  {
+    "date": "1992-07-01",
+    "description": "Nick Leeson was placed in Singapore with influence over both trading and settlements.",
+    "tags": [
+      "segregation_of_duties",
+      "organizational_control"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Board of Banking Supervision Inquiry",
+    "source_url": "https://www.bankofengland.co.uk/archive/Documents/historicpubs/investigations/barings.pdf",
+    "reliability": "high",
+    "entities": [
+      "Nick Leeson",
+      "Barings Futures Singapore",
+      "Account 88888",
+      "SIMEX",
+      "Bank of England"
+    ]
+  },
+  {
+    "date": "1994-12-31",
+    "description": "Hidden losses had already accumulated materially by year-end while reported performance remained misleadingly strong.",
+    "tags": [
+      "hidden_loss",
+      "misreporting"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Board of Banking Supervision Inquiry",
+    "source_url": "https://www.bankofengland.co.uk/archive/Documents/historicpubs/investigations/barings.pdf",
+    "reliability": "high",
+    "entities": [
+      "Nick Leeson",
+      "Barings Futures Singapore",
+      "Account 88888",
+      "SIMEX",
+      "Bank of England"
+    ]
+  },
+  {
+    "date": "1995-01-17",
+    "description": "The Kobe earthquake triggered a sharp market shock that intensified losses on hidden positions.",
+    "tags": [
+      "market_shock",
+      "kobe_earthquake"
+    ],
+    "source_id": "SRC-004",
+    "source_title": "Reserve Bank of Australia Bulletin",
+    "source_url": "https://www.rba.gov.au/publications/bulletin/1995/apr/the-barings-collapse.html",
+    "reliability": "medium",
+    "entities": [
+      "Nick Leeson",
+      "Nikkei 225",
+      "Japanese Government Bond futures"
+    ]
+  },
+  {
+    "date": "1995-02-26",
+    "description": "The concealed deficit was exposed after escalating margin demands and discovery of the 88888 account.",
+    "tags": [
+      "discovery",
+      "margin_call",
+      "account_88888"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Board of Banking Supervision Inquiry",
+    "source_url": "https://www.bankofengland.co.uk/archive/Documents/historicpubs/investigations/barings.pdf",
+    "reliability": "high",
+    "entities": [
+      "Nick Leeson",
+      "Barings Futures Singapore",
+      "Account 88888",
+      "SIMEX",
+      "Bank of England"
+    ]
+  },
+  {
+    "date": "1995-02-27",
+    "description": "Parliamentary discussion summarized the scale of losses and failures in oversight after the administration announcement.",
+    "tags": [
+      "parliament",
+      "oversight"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Hansard Parliamentary Statements",
+    "source_url": "https://hansard.parliament.uk/",
+    "reliability": "high",
+    "entities": [
+      "HM Treasury",
+      "Bank of England",
+      "Barings"
+    ]
+  },
+  {
+    "date": "1995-02-28",
+    "description": "Initial regional coverage reported the collapse, emergency support efforts, and the search for Leeson.",
+    "tags": [
+      "news",
+      "collapse"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Singapore News Coverage",
+    "source_url": "https://eresources.nlb.gov.sg/newspapers/",
+    "reliability": "medium",
+    "entities": [
+      "Barings Singapore",
+      "ING",
+      "SIMEX"
+    ]
+  }
+]

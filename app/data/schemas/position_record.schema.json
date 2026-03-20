@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PositionRecord",
+  "type": "object",
+  "required": ["date", "entity_id", "instrument", "net_exposure", "gross_exposure"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "entity_id": { "type": "string" },
+    "instrument": { "type": "string" },
+    "net_exposure": { "type": "number" },
+    "gross_exposure": { "type": "number" }
+  }
+}
