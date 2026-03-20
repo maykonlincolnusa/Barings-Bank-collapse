@@ -4,7 +4,7 @@
 <!--                        BANNER PRINCIPAL                           -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=BARINGS%20BANK%20%7C%20OpRisk%20Intelligence&fontSize=36&fontColor=F0E6C8&fontAlignY=38&desc=Fraud%20%26%20Operational%20Risk%20Reconstruction%20Platform&descAlignY=58&descSize=16&descColor=C9A84C&animation=fadeIn" width="100%"/>
+<img <img src="https://capsule-render.vercel.app/api?type=waving&color=7B1C2E&height=220&section=header&text=BARINGS%20BANK%20%7C%20OpRisk%20Intelligence&fontSize=36&fontColor=F0E6C8&fontAlignY=38&desc=Fraud%20%26%20Operational%20Risk%20Reconstruction%20Platform&descAlignY=58&descSize=16&descColor=C9A84C&animation=fadeIn" width="100%"/>0&section=header&text=BARINGS%20BANK%20%7C%20OpRisk%20Intelligence&fontSize=36&fontColor=F0E6C8&fontAlignY=38&desc=Fraud%20%26%20Operational%20Risk%20Reconstruction%20Platform&descAlignY=58&descSize=16&descColor=C9A84C&animation=fadeIn" width="100%"/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!--                      TYPING ANIMATION                             -->
